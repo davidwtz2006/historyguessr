@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#year-input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#result-text, #total-score {
+    margin: 10px 0;
+    font-weight: bold;
+}
